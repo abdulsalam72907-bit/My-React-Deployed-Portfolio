@@ -9,7 +9,7 @@
 ## Structure
 - `src/main.jsx` — React components and portfolio content
 - `src/styles.css` — responsive premium styling and animations
-- `src/assets/` — portrait and project screenshots
+- `public/images/` — portrait and project screenshots
 - `public/Abdul-Salam-CV.docx` — downloadable CV
 
 ## Run
@@ -31,3 +31,7 @@ npm run preview
 - GitHub, LinkedIn and email links included
 - CV download buttons included at the top, hero, contact and footer
 - Premium animations and responsive mobile navigation
+
+
+## Images
+All portfolio photos and the 8 project screenshots are included in `public/images/`. They are referenced with `/images/...`, so they work correctly after `npm run build` as well as during development.
